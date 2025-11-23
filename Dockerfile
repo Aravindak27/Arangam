@@ -13,11 +13,11 @@ RUN npm install
 # Copy all files from chat-backend
 COPY chat-backend/ .
 
-# Expose port
-EXPOSE 3001
+# Expose port (Hugging Face expects 7860)
+EXPOSE 7860
 
 # Define environment variable
-ENV PORT=3001
+ENV PORT=7860
 
 # Start the app
 CMD [ "node", "server.js" ]
