@@ -65,6 +65,7 @@ const Auth = ({ onLogin }) => {
         <div className="auth-container">
             <div className="auth-card">
                 <h2>{isLogin ? 'Welcome Back' : 'Create Account'}</h2>
+                <p style={{ textAlign: 'center', color: '#666', fontSize: '0.8rem' }}>v1.1 (Mobile Fix)</p>
                 {error && <div className="error-message">{error}</div>}
                 <form onSubmit={handleSubmit}>
                     {!isLogin && (

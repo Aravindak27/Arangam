@@ -887,17 +887,22 @@ body {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-  .sidebar {
-    width: 100%;
-    max-width: 300px;
-    position: absolute;
-    left: -100%;
-    z-index: 100;
-    transition: left 0.3s;
+  .chat-container {
+    position: relative;
   }
 
-  .sidebar.open {
-    left: 0;
+  .sidebar {
+    width: 100%;
+    border-right: none;
+  }
+
+  .chat-area {
+    width: 100%;
+  }
+
+  .sidebar.hidden,
+  .chat-area.hidden {
+    display: none;
   }
 
   .message {
