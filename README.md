@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎭 Arangam - Connect & Chat
 
 A modern, real-time chat application with authentication, private messaging, group chats, file sharing, and native Android support.
@@ -122,3 +123,17 @@ npm run dev
 Open your browser and go to:
 - Frontend: `http://localhost:5173`
 - Backend: `http://localhost:3001`
+=======
+---
+title: Arangam Backend
+emoji: 🐨
+colorFrom: green
+colorTo: purple
+sdk: docker
+pinned: false
+license: mit
+short_description: Chatting application
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+>>>>>>> 8cf39a3149d7fec494eaef3ce8e3f3f403c72b88
